@@ -1,0 +1,22 @@
+name: Unpack source
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unzip source
+        run: |
+          unzip -o source.zip
+          rm source.zip
+      - name: Commit and push
+        run: |
+          git config user.name "Anqqasa"
+          git config user.email "anggasaputra26112004@gmail.com"
+          rm -f .github/workflows/unpack.yml
+          git add -A
+          git commit -m "SinemaKu v2 — full source" || echo "nothing to commit"
+          git push
