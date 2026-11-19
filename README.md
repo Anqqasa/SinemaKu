@@ -1,29 +1,94 @@
+<div align="center">
+
+<img src=".github/images/sinemaku-logo.jpg" alt="SinemaKu" width="600">
+
 # SinemaKu
 
-Aplikasi streaming film & serial pribadi — fork dari
-[CloudStream](https://github.com/recloudstream/cloudstream) (v4.9.1) yang
-diganti nama menjadi **SinemaKu**.
+**Nonton film, serial, anime, drama pendek, dan Live TV Indonesia — gratis, tanpa iklan, tanpa login.**
 
-## Yang berbeda dari CloudStream
+[![Versi](https://img.shields.io/badge/versi-1.0.0-E50914)](https://github.com/Anqqasa/SinemaKu/releases)
+[![Platform](https://img.shields.io/badge/platform-Android-3DDC84)](https://github.com/Anqqasa/SinemaKu/releases)
+[![Bahasa](https://img.shields.io/badge/bahasa-Indonesia-red)](https://github.com/Anqqasa/SinemaKu)
+[![Lisensi](https://img.shields.io/badge/lisensi-GPL--3.0-blue)](LICENSE)
 
-- Nama aplikasi **SinemaKu**, package `com.panji.sinemaku` — bisa dipasang
-  berdampingan dengan aplikasi CloudStream resmi.
-- Ikon launcher, banner TV, dan ikon notifikasi baru.
-- Repositori **CloudX** (Moviebox, Idlix, dll.) sudah terpasang bawaan,
-  jadi provider langsung tersedia tanpa tambah repo manual.
-- In-app updater dimatikan — fork ini tidak diupdate dari rilis
-  CloudStream resmi (beda package).
+[📥 Unduh APK Terbaru](https://github.com/Anqqasa/SinemaKu/releases)
 
-## Build
+<!-- Setelah rilis 1.0.0 terbit, ganti tautan di atas ke /releases/latest -->
 
-Butuh JDK 17 dan Android SDK (compileSdk 37, build-tools 36.0.0):
+</div>
 
-```sh
-./gradlew assembleStableDebug
-```
+---
 
-APK hasil build ada di `app/build/outputs/apk/stable/debug/`.
+## Tentang SinemaKu
 
-## Lisensi
+SinemaKu adalah aplikasi streaming Android untuk menonton film, serial TV, anime, drama pendek, dan Live TV Indonesia dalam satu tempat. Dibangun dari basis open-source CloudStream, dengan tampilan dan fitur yang dirancang khusus untuk penonton Indonesia.
 
-GPL-3.0 — lihat file `LICENSE`. Kode asli © para kontributor CloudStream.
+Semua konten berasal dari provider pihak ketiga. SinemaKu tidak menyimpan atau meng-host video apa pun.
+
+## ✨ Fitur
+
+- **Tanpa iklan, tanpa login** — buka aplikasi, langsung nonton
+- **MovieBox sebagai provider utama**, didukung 18 provider Indonesia (Idlix, Dutamovie, LayarKaca, dan lainnya)
+- **Drama pendek** (OnShort) dan **Live TV Indonesia** (IndoTV)
+- **Subtitle Indonesia otomatis** — selalu diutamakan bila tersedia
+- **Fallback pemutaran otomatis** — kalau satu server gagal, langsung pindah server lain, lalu provider lain, tanpa perlu mengetuk apa-apa
+- **Lanjut nonton otomatis** — buka judul yang pernah ditonton, langsung lanjut dari posisi terakhir
+- **Unduh offline** — simpan dan tonton tanpa internet
+- **Backup & ekspor data** — riwayat, favorit, dan pengaturan bisa dipindahkan ke perangkat baru dalam satu file
+- **Hero banner dari judul trending**, filter kategori (Film / Serial / Anime) dan filter provider yang bisa dikombinasikan
+- **Pemutar inline** — video dan detail dalam satu layar, fullscreen hanya kalau kamu mau
+- **Notifikasi error yang jelas** — lengkap dengan tombol Coba Lagi dan Coba Provider Lain
+- **Chromecast** — putar ke TV
+- **Bahasa Indonesia penuh** — mudah dipakai siapa saja
+
+## 📸 Tampilan
+
+<!-- Screenshot ditambahkan setelah pengujian v3 selesai. Simpan file-nya di .github/images/ lalu tampilkan di sini, contoh:
+<p align="center">
+  <img src=".github/images/beranda.jpg" width="270" alt="Beranda">
+  <img src=".github/images/detail.jpg" width="270" alt="Detail dan pemutar">
+  <img src=".github/images/pengaturan.jpg" width="270" alt="Pengaturan">
+</p>
+-->
+
+*Screenshot menyusul dari pengujian.*
+
+## 📥 Cara Install
+
+1. Unduh file APK terbaru dari [halaman Releases](https://github.com/Anqqasa/SinemaKu/releases).
+2. Buka file APK-nya di HP/tablet Android-mu (Android 6.0 ke atas).
+3. Saat diminta, izinkan **"Install aplikasi tidak dikenal"** untuk browser/file manager-mu — cukup sekali saja.
+4. Selesai. Tidak perlu daftar, tidak perlu login.
+
+> **Pembaruan:** mulai versi 1.1.0, SinemaKu mengecek update sendiri dan mengunduh versi baru secara otomatis.
+
+## 🗺️ Roadmap — versi 1.1.0
+
+- Pre-check server — mengecek server yang hidup sebelum video diputar
+- Terjemahan subtitle otomatis ke Indonesia
+- Notifikasi episode baru
+- Pemilih tontonan berdasarkan mood dan waktu luang
+- Widget "Lanjut Nonton" di home screen
+- Profil keluarga tanpa login
+- Dukungan Android TV (mode Leanback, navigasi remote)
+- Cek update otomatis + unduh dan pasang APK baru
+- Popup donasi QRIS ("Dukung SinemaKu")
+
+## ❤️ Dukung SinemaKu
+
+<!-- Gambar QRIS ditambahkan setelah diterima dari Panji. Simpan sebagai .github/images/qris.jpg lalu tampilkan di sini. -->
+
+SinemaKu dikembangkan secara sukarela dan gratis. Kalau aplikasi ini terasa membantu, kamu bisa ikut mendukung pengembangannya lewat donasi sukarela (QRIS). Tidak wajib — tapi sangat membantu untuk maintenance, update, dan eksperimen fitur baru.
+
+## ⚠️ Disclaimer
+
+SinemaKu adalah pemutar media open-source. Aplikasi ini tidak meng-host, mengunggah, atau menyimpan konten video apa pun — semua video dialirkan langsung dari server provider pihak ketiga. Gunakan dengan bijak dan patuhi hukum yang berlaku di wilayahmu.
+
+## 🙏 Kredit
+
+- Dibangun dari [CloudStream](https://github.com/recloudstream/cloudstream) (GPL-3.0)
+- Provider Indonesia: repo [CloudX](https://github.com/Asm0d3usX/CloudX-V2), [IndoStream](https://github.com/TeKuma25/IndoStream), [cs-Karma](https://github.com/Kraptor123/cs-Karma)
+
+## 📄 Lisensi
+
+SinemaKu dilisensikan di bawah [GNU General Public License v3.0](LICENSE), mengikuti lisensi CloudStream.
