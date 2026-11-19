@@ -76,7 +76,9 @@ Semua konten berasal dari provider pihak ketiga. SinemaKu tidak menyimpan atau m
 
 ## ❤️ Dukung SinemaKu
 
-<!-- Gambar QRIS ditambahkan setelah diterima dari Panji. Simpan sebagai .github/images/qris.jpg lalu tampilkan di sini. -->
+<p align="center">
+  <img src=".github/images/qris.jpg" width="300" alt="QRIS SinemaKu">
+</p>
 
 SinemaKu dikembangkan secara sukarela dan gratis. Kalau aplikasi ini terasa membantu, kamu bisa ikut mendukung pengembangannya lewat donasi sukarela (QRIS). Tidak wajib — tapi sangat membantu untuk maintenance, update, dan eksperimen fitur baru.
 
