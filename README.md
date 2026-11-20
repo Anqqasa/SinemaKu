@@ -29,9 +29,15 @@ Semua konten berasal dari provider pihak ketiga. SinemaKu tidak menyimpan atau m
 
 - **Tanpa iklan, tanpa login** — buka aplikasi, langsung nonton
 - **MovieBox sebagai provider utama**, didukung 18 provider Indonesia (Idlix, Dutamovie, LayarKaca, dan lainnya)
+- **Pencarian toleran typo** — salah ketik sedikit tetap ketemu, lengkap dengan saran "Mungkin maksudmu…?"
+- **Pre-check server** — server yang mati dicoret sebelum video diputar, jadi tidak buang waktu
+- **Fallback pemutaran otomatis** — kalau satu server gagal, langsung pindah server lain, lalu provider lain, tanpa perlu mengetuk apa-apa
+- **1080p diutamakan** — kualitas tertinggi selalu dicari duluan
+- **Prefetch** — tautan video disiapkan selagi kamu menjelajah beranda, jadi film langsung main begitu diketuk
+- **Trailer saat loading (opsional)** — sambil menunggu video utama, trailer diputar dulu; bisa dimatikan dari Pengaturan
+- **Tekan-tahan 2x** — tahan sisi kanan pemutar untuk mempercepat 2x, lepas untuk kembali normal
 - **Drama pendek** (OnShort) dan **Live TV Indonesia** (IndoTV)
 - **Subtitle Indonesia otomatis** — selalu diutamakan bila tersedia
-- **Fallback pemutaran otomatis** — kalau satu server gagal, langsung pindah server lain, lalu provider lain, tanpa perlu mengetuk apa-apa
 - **Lanjut nonton otomatis** — buka judul yang pernah ditonton, langsung lanjut dari posisi terakhir
 - **Unduh offline** — simpan dan tonton tanpa internet
 - **Backup & ekspor data** — riwayat, favorit, dan pengaturan bisa dipindahkan ke perangkat baru dalam satu file
@@ -43,15 +49,13 @@ Semua konten berasal dari provider pihak ketiga. SinemaKu tidak menyimpan atau m
 
 ## 📸 Tampilan
 
-<!-- Screenshot ditambahkan setelah pengujian v3 selesai. Simpan file-nya di .github/images/ lalu tampilkan di sini, contoh:
 <p align="center">
-  <img src=".github/images/beranda.jpg" width="270" alt="Beranda">
-  <img src=".github/images/detail.jpg" width="270" alt="Detail dan pemutar">
-  <img src=".github/images/pengaturan.jpg" width="270" alt="Pengaturan">
+  <img src=".github/images/detail.jpg" width="800" alt="Detail film dan pemutar">
 </p>
--->
 
-*Screenshot menyusul dari pengujian.*
+<p align="center"><em>Detail film dan pemutar — video, sinopsis, pemeran, dan tombol Favorit/Unduh dalam satu layar.</em></p>
+
+*Screenshot beranda dan pengaturan menyusul.*
 
 ## 📥 Cara Install
 
@@ -64,7 +68,6 @@ Semua konten berasal dari provider pihak ketiga. SinemaKu tidak menyimpan atau m
 
 ## 🗺️ Roadmap — versi 1.1.0
 
-- Pre-check server — mengecek server yang hidup sebelum video diputar
 - Terjemahan subtitle otomatis ke Indonesia
 - Notifikasi episode baru
 - Pemilih tontonan berdasarkan mood dan waktu luang
@@ -73,6 +76,13 @@ Semua konten berasal dari provider pihak ketiga. SinemaKu tidak menyimpan atau m
 - Dukungan Android TV (mode Leanback, navigasi remote)
 - Cek update otomatis + unduh dan pasang APK baru
 - Popup donasi QRIS ("Dukung SinemaKu")
+
+## 👨‍💻 Pengembang
+
+**Panji Angga Saputra** — Pengembang SinemaKu
+
+- Instagram: [@Anqqasa](https://www.instagram.com/Anqqasa)
+- GitHub: [Anqqasa](https://github.com/Anqqasa)
 
 ## ❤️ Dukung SinemaKu
 
