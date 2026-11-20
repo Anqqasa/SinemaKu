@@ -50,12 +50,22 @@ Semua konten berasal dari provider pihak ketiga. SinemaKu tidak menyimpan atau m
 ## 📸 Tampilan
 
 <p align="center">
+  <img src=".github/images/beranda.jpg" width="800" alt="Beranda">
+</p>
+
+<p align="center"><em>Beranda — hero banner, filter provider dan kategori, dan grid poster film dan serial.</em></p>
+
+<p align="center">
   <img src=".github/images/detail.jpg" width="800" alt="Detail film dan pemutar">
 </p>
 
 <p align="center"><em>Detail film dan pemutar — video, sinopsis, pemeran, dan tombol Favorit/Unduh dalam satu layar.</em></p>
 
-*Screenshot beranda dan pengaturan menyusul.*
+<p align="center">
+  <img src=".github/images/akun.jpg" width="800" alt="Tab Akun">
+</p>
+
+<p align="center"><em>Tab Akun — profil lokal tanpa login, Riwayat, Favorit, dan Pengaturan.</em></p>
 
 ## 📥 Cara Install
 
